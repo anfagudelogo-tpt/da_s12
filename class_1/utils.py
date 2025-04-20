@@ -11,11 +11,7 @@ def conectar_postgresql(credentials):
     Crea una conexión a una base de datos PostgreSQL.
 
     Parámetros:
-    - host (str): dirección del servidor (ej. 'localhost' o IP)
-    - dbname (str): nombre de la base de datos
-    - user (str): nombre de usuario
-    - password (str): contraseña del usuario
-    - port (int): puerto de conexión (por defecto es 5432)
+    - credentials: json
 
     Retorna:
     - conn: objeto de conexión a PostgreSQL
